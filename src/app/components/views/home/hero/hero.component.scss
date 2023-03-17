@@ -1,0 +1,26 @@
+.hero {
+    font-family: ddin-cond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 81px;
+    color: var(--main-color);
+    height: 899px;
+
+
+    img {
+        width: 838px;
+    }
+
+    h1 {
+        font-size: 84px;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-family: ddin;
+        font-size: 32px;
+        margin: 12px 0 0 0;
+    }
+}
