@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+
+@font-face {
+    font-family: 'ddin';
+    src: url('./assets/fonts/D-DIN.otf');
+}
+@font-face {
+    font-family: 'ddin-exp';
+    src: url('./assets/fonts/D-DINExp.otf');
+}
