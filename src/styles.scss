@@ -8,6 +8,11 @@
 }
 
 
+:root {
+    --main-color: #004257;
+}
+
+
 @font-face {
     font-family: 'ddin';
     src: url('./assets/fonts/D-DIN.otf');
@@ -16,3 +21,9 @@
     font-family: 'ddin-exp';
     src: url('./assets/fonts/D-DINExp.otf');
 }
+@font-face {
+    font-family: 'ddin-cond';
+    src: url('./assets/fonts/D-DINCondensed.otf');
+}
+
+
