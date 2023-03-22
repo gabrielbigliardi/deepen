@@ -13,6 +13,9 @@ import { SolutionsComponent } from './components/views/home/solutions/solutions.
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import { BlogComponent } from './components/views/home/blog/blog.component';
+import { ClientsComponent } from './components/views/home/clients/clients.component';
+import { ContactComponent } from './components/views/home/contact/contact.component';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +26,8 @@ import { BlogComponent } from './components/views/home/blog/blog.component';
     AboutComponent,
     SolutionsComponent,
     BlogComponent,
+    ClientsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

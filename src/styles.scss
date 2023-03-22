@@ -5,14 +5,16 @@
 * {
     
     box-sizing: border-box;
-    background-color: coral;
-
+    // background-color: coral;
+    background-color: var(--bg-color);
+    
 }
 
 html {
     margin: 0;
     padding: 0;
-    background-color: cornflowerblue;
+    // background-color: cornflowerblue;
+    background-color: var(--bg-color);
 }
 
 

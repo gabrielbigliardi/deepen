@@ -7,7 +7,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 120px;
+        margin: auto;
         
         
         .navbar--img {
@@ -20,9 +20,9 @@
         .navbar--items {
             display: flex;
             justify-content: space-between;
-            background-color: burlywood;
+            // background-color: burlywood;
             height: 100%;
-            padding: 41px 120px;
+            padding: 41px 370px;
             gap: 64px;
             
             a {

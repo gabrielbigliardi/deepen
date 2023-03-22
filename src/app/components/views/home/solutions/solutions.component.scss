@@ -1,7 +1,5 @@
 .solutions {
-    // width: 1920px;
     max-width: 100%;
-    // background-color: var(--main-color);
     border-radius: 40px 40px 40px 40px;
     background-image: url('../../../../../assets/imgs/nosso-trabalho-image.png');
     background-size: cover;
@@ -11,6 +9,15 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 16px;
+
+    h3 {
+        font-family: 'ddin-exp-bold';
+        font-size: 24px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        grid-column-start: 4;
+        margin-top: 32px;
+    }
 }   
 
 
@@ -34,11 +41,6 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    // flex-wrap: wrap;
-    // flex-grow: 0;
-    // align-content: center;
-    // line-height: 25px;
-    // vertical-align: middle;
 
     padding-left: 32px;
     padding-right: 32px;
@@ -50,20 +52,27 @@ div {
 }
 
 
+
 .sol--id {
     font-family: 'ddin';
     font-size: 24px;
+    line-height: 15px;
 }
 
 .sol--title {
     font-family: 'ddin-cond-bold';
     font-size: 24px;
-
+    line-height: 26px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    padding: 0;
+    
 }
 
 .sol--description {
     font-family: 'ddin';
     font-size: 16px;
+    line-height: 26px;
 }
 
 
