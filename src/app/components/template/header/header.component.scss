@@ -1,17 +1,18 @@
 .navbar {
     background-color: var(--bg-color);
+    // background-color: cadetblue;
     // position: fixed;
     min-width: 100%;
 
     .navbar--nav {
         // background-color: red;
-        height: 100px;
+        height: 105px;
         display: flex;
         // flex-direction: row;
         justify-content: space-between;
         align-items: center;
         // background-color: #f2f2f2;
-        background-color: chocolate;
+        // background-color: chocolate;
         margin: 0 120px;
     
     
@@ -23,14 +24,16 @@
     
     
         .navbar--items {
+            position: relative;
             display: flex;
             justify-content: space-between;
             // flex-grow: 1;
-            padding: 45px 120px;
+            height: 100%;
+            padding: 41px 120px;
             gap: 64px;
             // width: 586px;
             // margin: auto;
-            background-color: blueviolet;
+            // background-color: blueviolet;
             
             a {
                 

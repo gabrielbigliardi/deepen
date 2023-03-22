@@ -1,0 +1,76 @@
+.solutions {
+    // width: 1920px;
+    max-width: 100%;
+    // background-color: var(--main-color);
+    border-radius: 40px 40px 40px 40px;
+    background-image: url('../../../../../assets/imgs/nosso-trabalho-image.png');
+    background-size: cover;
+    padding: 144px 120px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}   
+
+
+div {
+    background: rgba(0, 0, 0, 0);
+    color: #ffff;
+}
+
+
+
+.solutions--intro {
+    font-family: 'ddin-cond-bold';
+    font-size: 84px;
+    padding: 35px 49px;
+    text-align: left;
+    line-height: 91px;
+}
+
+.solution--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // flex-wrap: wrap;
+    // flex-grow: 0;
+    // align-content: center;
+    // line-height: 25px;
+    // vertical-align: middle;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #ffffff15 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.sol--id {
+    font-family: 'ddin';
+    font-size: 24px;
+}
+
+.sol--title {
+    font-family: 'ddin-cond-bold';
+    font-size: 24px;
+
+}
+
+.sol--description {
+    font-family: 'ddin';
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+

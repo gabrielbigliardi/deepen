@@ -1,0 +1,72 @@
+<section class="solutions">
+   
+    <div class="solutions--intro">CONHEÇA NOSSO TRABALHO</div>
+
+    <div class="solution--container" *ngFor="let sol of sols">
+        <div class="sol--id">0{{sol.id}}.</div>
+        <div class="sol--title">{{sol.title}}</div>
+        <div class="sol--description">{{sol.description}}</div>
+
+    </div>
+
+</section>
+
+<!-- <div class="container text-center">
+    <div class="row" >
+    <div class="col solutions--intro" >CONHEÇA NOSSO TRABALHO</div>
+
+    <div class="col-3 solution--container" *ngFor="let sol of sols">
+        <div class="sol--id">0{{sol.id}}.</div>
+        <div class="col sol--title">{{sol.title}}</div>
+        <div class="sol--description">{{sol.description}}</div>
+
+    </div>
+        
+    </div>
+</div> -->
+
+ <!-- <mat-grid-list cols="4" rowHeight="100px" [ngStyle]="{'background-color': 'transparent'}">
+        <mat-grid-tile
+            *ngFor="let sol of sols"
+            [colspan]="1"
+            [rowspan]="1"
+            [ngStyle]="{'background-color': 'transparent'}"
+            >
+          {{sol.description}}
+        </mat-grid-tile>
+      </mat-grid-list> -->
+
+
+
+
+
+
+<!-- <mat-grid-list cols="4" rowHeight="343px"  >
+
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1" class="bg-transparent">
+        <h2 class="solutions--intro-text">CONHEÇA NOSSO TRABALHO</h2>
+    </mat-grid-tile>
+
+
+    <mat-grid-tile *ngFor="let sol of sols" class="solutions--cards" >
+
+        <mat-card class="example-card">
+            <mat-card-header>
+                <mat-card-title-group>
+                    <mat-card-title>0{{sol.id}}.</mat-card-title>
+                    <mat-card-subtitle>{{sol.title}}</mat-card-subtitle>
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{sol.description}}</p>
+            </mat-card-content>
+        </mat-card>
+
+    </mat-grid-tile>
+
+
+
+
+
+</mat-grid-list> -->
