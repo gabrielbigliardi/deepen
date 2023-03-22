@@ -5,16 +5,19 @@
 * {
     
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    background-color: coral;
+
 }
 
 html {
     margin: 0;
     padding: 0;
+    background-color: cornflowerblue;
 }
 
 
 :root {
+    --bg-color: #f2f2f2;
     --main-color: #004257;
     --second-color: #4AAFB2;
 }
