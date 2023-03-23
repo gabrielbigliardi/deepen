@@ -46,24 +46,39 @@
         }
 
         button {
-            width: 227px;
+            display: flex;
+            align-items: normal;
+            justify-content: space-between;
+            justify-content: center;
+            align-content: center;
             font-family: 'ddin-exp';
+            width: 240px;
+            padding: 16px 24px;
             font-size: 16px;
             color: #FFFFFF;
             background-color: var(--main-color);
             text-transform: uppercase;
             border: none;
-            border-radius: 25px;
-            padding: 16px 24px;
+            border-radius: 35px;
+            // align-self: center;
 
-            i {
-                background-color: var(--main-color);
-                font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 48
+            div {
+                background: rgba(0, 0, 0, 0);
+                display: flex;
+                span {
+                    
+                    padding-top: 2px;
+                    padding-right: 16px;
+                    background: rgba(0, 0, 0, 0);
+                }
+                mat-icon {
+                    font-size: 29px;
+                    font-weight: 600;
+                    background: rgba(0, 0, 0, 0);
+                }
             }
+            
+            
         }
     }
 }

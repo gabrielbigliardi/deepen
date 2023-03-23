@@ -4,20 +4,20 @@
     color: #ffffff;
     display: flex;
     gap: 124px;
-    bottom: 0;
 
-    
+
     .footer--address {
         display: flex;
         flex-direction: column;
         font-family: 'ddin-cond';
         background-color: var(--main-color);
+
         h3 {
             font-size: 48px;
             margin: 0 0 8px 0;
             background-color: var(--main-color);
         }
-        
+
         p {
             font-family: 'ddin';
             font-size: 24px;
@@ -25,13 +25,14 @@
             background-color: var(--main-color);
         }
     }
-    
-    
+
+
     .footer--contact {
         display: flex;
         flex-direction: column;
         font-family: 'ddin-cond';
         background-color: var(--main-color);
+        
         h3 {
             font-size: 48px;
             margin: 0 0 8px 0;
@@ -46,27 +47,42 @@
             margin: 8px 0;
             background-color: var(--main-color);
         }
+        
+        .footer--social-icons {
+            display: flex;
+            justify-content: left;
+            gap: 32px;
+            background-color: rgba(0, 0, 0, 0);
+            
+            a  > fa-icon {
+                background-color: var(--main-color);
+                color: #fff;
+                font-size: 32px;
+            }
+        }
+
     }
-    
-    
-    .footer--website-map {
-        display: flex;
-        flex-direction: column;
-        font-family: 'ddin-cond';
+}
+
+
+.footer--website-map {
+    display: flex;
+    flex-direction: column;
+    font-family: 'ddin-cond';
+    background-color: var(--main-color);
+
+    h3 {
+        font-size: 48px;
+        margin: 0 0 8px 0;
         background-color: var(--main-color);
-        h3 {
-            font-size: 48px;
-            margin: 0 0 8px 0;
-            background-color: var(--main-color);
-        }
-        
-        a {
-            text-decoration: none;
-            color: #ffffff;
-            font-family: 'ddin';
-            font-size: 24px;
-            margin: 8px 0;
-            background-color: var(--main-color);
-        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'ddin';
+        font-size: 24px;
+        margin: 8px 0;
+        background-color: var(--main-color);
     }
 }

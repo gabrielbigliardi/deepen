@@ -19,12 +19,9 @@
             font-size: 24px;
             color: #C2C2C2;
 
-            .material-icons {
-                font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 48
+            mat-icon {
+                font-size: 29px;
+                font-weight: 600;
             }
         }
     }

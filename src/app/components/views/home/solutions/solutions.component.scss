@@ -4,7 +4,7 @@
     background-image: url('../../../../../assets/imgs/nosso-trabalho-image.png');
     background-size: cover;
     padding: 144px 120px;
-    
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -17,8 +17,16 @@
         background-color: rgba(0, 0, 0, 0);
         grid-column-start: 4;
         margin-top: 32px;
+
+        mat-icon {
+            margin-left: 5px;
+            font-size: 29px;
+            font-weight: 600;
+            background: rgba(0, 0, 0, 0);
+        }
     }
-}   
+}
+
 
 
 div {
@@ -66,7 +74,7 @@ div {
     margin-top: 5px;
     margin-bottom: 16px;
     padding: 0;
-    
+
 }
 
 .sol--description {
@@ -74,12 +82,3 @@ div {
     font-size: 16px;
     line-height: 26px;
 }
-
-
-
-
-
-
-
-
-
