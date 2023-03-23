@@ -1,9 +1,14 @@
 .footer {
+    width: 100%;
+    bottom: 0;
+    right: 0;
     padding: 84px 120px;
     background-color: var(--main-color);
     color: #ffffff;
     display: flex;
     gap: 124px;
+    
+    transition: all .50s ease;
 
 
     .footer--address {
@@ -84,5 +89,62 @@
         font-size: 24px;
         margin: 8px 0;
         background-color: var(--main-color);
+    }
+}
+
+
+
+@media (max-width: 1280px) {
+    .footer {
+        gap: 80px;
+        padding: 58px 90px;
+        transition: all .50s ease;
+
+        .footer--address {
+            h3 {
+                font-size: 32px;
+            }
+    
+            p {
+                font-size: 18px ;
+            }
+        }
+
+        .footer--contact {
+            h3 {
+                font-size: 32px;
+            }
+    
+            a {
+                font-size: 18px ;
+            }
+
+            .footer--social-icons {
+                gap: 20px;
+
+                a > fa-icon {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .footer--website-map {
+            h3 {
+                font-size: 32px;
+            }
+    
+            a {
+                font-size: 18px ;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        transition: all .50s ease;
+        padding: 34px 60px;
     }
 }

@@ -7,5 +7,8 @@
         <li><a href="">CONSULTORIA</a></li>
         <li><a href="">BLOG</a></li>
     </ul>
+    <i class="burger" (click)="toggleMenu()">
+        <mat-icon class="material-symbols-outlined">{{ isMenuOpen ? "close" : "menu" }}</mat-icon>
+    </i>
     <button>ENTRE EM CONTATO</button>
 </header>
