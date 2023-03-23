@@ -4,23 +4,25 @@
 
 * {
     
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    // background-color: coral;
-    // background-color: var(--bg-color);
+    text-decoration: none;
+    list-style: none;
     
 }
 
-html {
-    margin: 0;
-    padding: 0;
-    // background-color: cornflowerblue;
-    background-color: var(--bg-color);
-    // background-color: #004257;
-}
+// html {
+//     background-color: cornflowerblue;
+//     background-color: var(--bg-color);
+//     background-color: orangered;
+// }
 
 body {
     
     background-color: var(--bg-color);
+    min-width: 100vh;
+
 }
 
 
