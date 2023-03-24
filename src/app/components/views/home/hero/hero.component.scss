@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 120px;
+    padding: 5em 7.5em;
     color: var(--main-color);
     background-color: var(--bg-color);
     transition: all .5s ease;
@@ -13,13 +13,13 @@
 
 
     img {
-        width: 838px;
+        width: 52em;
         transition: all .5s ease;
 
     }
 
     h1 {
-        font-size: 84px;
+        font-size: 5.25em;
         margin-bottom: 0;
         transition: all .5s ease;
 
@@ -27,15 +27,15 @@
 
     h2 {
         font-family: ddin;
-        font-size: 30px;
-        margin: 12px 0 0 0;
+        font-size: 1.875em;
+        margin: 0.27em 0 0 0;
     }
 }
 
 @media (max-width: 1280px) {
     .hero {
 
-        padding: 62px 90px;
+        padding: 3.875em 5.625em;
 
         img {
             width: 559px;
@@ -43,13 +43,13 @@
         }
 
         h1 {
-            font-size: 56px;
+            font-size: 3.5em;
             transition: all .5s ease;
 
         }
 
         h2 {
-            font-size: 26px;
+            font-size: 1.625em;
             transition: all .5s ease;
 
         }

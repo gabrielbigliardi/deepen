@@ -8,11 +8,11 @@ header {
     align-items: center;
     // background-color: transparent;
     background-color: var(--bg-color);
-    padding: 28px 9%;
+    padding: 2em 9%;
     transition: all .5s ease;
 
     .navbar--img {
-        max-width: 170px;
+        max-width: 10.625em;
     }
 
 
@@ -24,10 +24,10 @@ header {
         a {
             text-decoration: none;
             font-family: 'ddin-exp';
-            font-size: 16px;
+            font-size: 1em;
             color: #b2b2b2;
-            padding: 5px 0px;
-            margin: 0px 32px;
+            padding: 0.3125em 0;
+            margin: 0 2em;
             transition: all .50s ease;
 
         }
@@ -45,14 +45,14 @@ header {
 
 
     button {
+        font-size: 1em;
+        font-family: 'ddin-exp';
         background-color: var(--main-color);
         color: #fff;
-        width: 197px;
-        height: 49px;
+        width: 12.3em;
+        height: 3em;
         border: none;
-        border-radius: 25px;
-        font-family: 'ddin-exp';
-        font-size: 16px;
+        border-radius: 1.6em;
     }
 
 
@@ -60,7 +60,7 @@ header {
         display: none;
 
         mat-icon {
-            font-size: 32px;
+            font-size: 2em;
             color: var(--main-color);
 
         }
@@ -70,12 +70,12 @@ header {
 
 @media (max-width: 1280px) {
     header {
-        padding: 14px 2%;
+        padding: .9em 2%;
         transition: 2s;
 
         .navbar a {
-            padding: 5px 0;
-            margin: 0px 20px;
+            padding: .3em 0;
+            margin: 0 1.3em;
 
         }
     }
