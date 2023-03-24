@@ -1,9 +1,66 @@
 .clients {
-    padding: 140px 120px;
+    // padding: 2.5rem 8.7rem;
+    max-width: 100%;
     h2 {
         font-family: 'ddin-cond-bold';
         font-size: 84px;
         color: var(--main-color);
         text-align: center;
     }
+
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        padding: 2em 0;
+        
+        
+        > div {
+            
+            // padding: 2em 0;
+
+            img {
+                padding: 4em 4em;
+            }
+        }
+        
+        :nth-child(1) {
+            display: grid;
+            // grid-template-columns: repeat(5, 1fr);
+            grid-template-columns:  repeat(auto-fit, minmax(15rem, 1fr));
+            
+            // margin-inline: auto;
+            img {
+                
+                width: 18rem;
+            }
+            
+        }
+        
+        :nth-child(2) {
+            display: grid;
+            // grid-template-columns: repeat(4, 1fr);
+            grid-template-columns:  repeat(auto-fit, minmax(15rem, 1fr));
+            // margin-inline: auto;
+            
+            img {
+                
+                width: 18rem;
+            }
+        }
+        
+        :nth-child(3) {
+            display: grid;
+            // grid-template-columns: 1fr 1fr;
+            grid-template-columns:  repeat(auto-fit, minmax(15rem, 1fr));
+            // margin: auto;
+            
+            img {
+                
+                width: 17rem;
+            }
+        }
+        
+    }
 }
+

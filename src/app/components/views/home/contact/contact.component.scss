@@ -2,47 +2,47 @@
 
 .contact {
     display: flex;
-    padding: 0px 120px 164px 120px;
-    gap: 280px;
+    padding: 2em 7.5em 8.5em 7.5em;
+    gap: 17.5em;
 
     .contact--form {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 1em;
 
         h2 {
             font-family: 'ddin-cond-bold';
-            font-size: 82px;
+            font-size: 5.125em;
             color: var(--main-color);
             margin: 0;
         }
 
         h4 {
             font-family: 'ddin';
-            font-size: 32px;
+            font-size: 2em;
             color: var(--main-color);
-            margin-bottom: 16px;
-            line-height: 48px;
+            margin-bottom: 1em;
+            line-height: 1.4em;
         }
 
         input {
             font-family: 'ddin';
-            font-size: 24px;
+            font-size: 1.5em;
             border: 1px solid #C2C2C2;
-            border-radius: 8px;
+            border-radius: .5em;
             opacity: 1;
-            text-indent: 16px;
-            height: 58px;
+            text-indent: 1em;
+            height: 3em;
         }
 
         textarea {
             font-family: 'ddin';
-            font-size: 24px;
+            font-size: 1.5em;
             border: 1px solid #C2C2C2;
-            border-radius: 8px;
+            border-radius: .5em;
             opacity: 1;
             // text-indent: 24px;
-            padding: 16px 16px 16px 16px;
+            padding: 1em;
         }
 
         button {
@@ -52,14 +52,14 @@
             justify-content: center;
             align-content: center;
             font-family: 'ddin-exp';
-            width: 240px;
-            padding: 16px 24px;
-            font-size: 16px;
+            font-size: 1.2em;
+            width: 15em;
+            padding: 1em 1.5em;
             color: #FFFFFF;
             background-color: var(--main-color);
             text-transform: uppercase;
             border: none;
-            border-radius: 35px;
+            border-radius: 2.1em;
             // align-self: center;
 
             div {
