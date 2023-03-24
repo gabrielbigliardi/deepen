@@ -10,7 +10,6 @@ export class HeaderComponent {
   isMenuOpen = false;
 
   toggleMenu(): void {
-    // console.log('Click!')
     this.isMenuOpen = !this.isMenuOpen;
   }
 }

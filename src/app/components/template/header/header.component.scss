@@ -1,4 +1,5 @@
 header {
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -6,7 +7,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // background-color: transparent;
     background-color: var(--bg-color);
     padding: 2em 9%;
     transition: all .5s ease;
@@ -38,6 +38,10 @@ header {
 
         a.active {
             color: var(--main-color);
+        }
+
+        button {
+            display: none;
         }
 
     }
@@ -83,48 +87,58 @@ header {
 
 }
 
-// @media (max-width: 1090px) {
+@media (max-width: 1090px) {
 
-//     header {
+    header {
+
         
-//         i {
-//             display: block;
-//         }
+        i {
+            display: block; 
+        }
 
-//         .navbar {
-//             position: absolute;
-//             top: 100%;
-//             right: 2%;
-//             width: 270px;
-//             height: 29vh;
-//             background: var(--main-color);
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: flex-start;
-//             border-radius: 10px;
-//             transition: all .50s ease;
-
-//             a {
-//                 display: block;
-//                 margin: 12px 0;
-//                 padding: 0px 25px;
-//                 transition: all .50s ease;
-//             }
-//         }
-
-//         .navbar a:hover {
-//             color: var(--bg-color);
-//             transform: translateY(5px);
-//         }
-
-//         .navbar a.active {
-//             color: var(--bg-color);
-//         }
-
-//         .navbar.open {
-//             right: 2%;
-//         }
+        .navbar {
+            position: absolute;
+            top: 100%;
+            right: -100%;
+            width: 270px;
+            height: 29vh;
+            background: var(--main-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            border-radius: 10px;
+            transition: all .50s ease;
 
 
-//     }
-// }
+            a {
+                display: block;
+                margin: 12px 0;
+                padding: 0px 25px;
+                transition: all .50s ease;
+            }
+
+            button {
+                display: block;
+            }
+        }
+
+        .navbar a:hover {
+            color: var(--bg-color);
+            transform: translateY(5px);
+        }
+
+        .navbar a.active {
+            color: var(--bg-color);
+        }
+
+        .navbar.open {
+            right: 2%;
+        }
+
+
+        button {
+            display: none;
+        }
+
+    }
+}
