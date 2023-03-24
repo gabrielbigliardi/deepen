@@ -1,26 +1,27 @@
 .blog {
+    padding: 7.75rem 7.5rem;
+    width: 100%;
+
     
     .blog--header {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 124px 120px 0px 120px;
 
         h3 {
             font-family: 'ddin-cond-bold';
-            font-size: 48px;
+            font-size: 3rem;
             color: var(--main-color);
         }
 
         a {
             text-decoration: none;
             font-family: 'ddin-exp-bold';
-            font-size: 24px;
+            font-size: 1.5rem;
             color: #C2C2C2;
 
             mat-icon {
-                font-size: 29px;
+                font-size: 1.8rem;
                 font-weight: 600;
             }
         }
@@ -29,57 +30,24 @@
 
     .blog--posts {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: repeat(2, 442px);
-        row-gap: 30px;
-        column-gap: 0px;
-        // border: solid 2px red;
-        padding-left: 65px;
-        margin: auto;
-        width: 100%;
-        
-        
-        .blog--first-post {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 1;
-            grid-row-end: 3;
-            // height: 1189px;
-            // background: url('../../../../../assets/imgs/post-image-1.png');
-            background-size: 100%;
-            background-repeat: no-repeat;
-            // border: solid 2px rgb(17, 0, 255);
-            
-            
+        // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(3, 1fr);
+
+        img {
+            width: 100%;
+            aspect-ratio: 1.1/1;
+            // object-fit: cover;
         }
         
-        .blog--second-post {
-            grid-column-start: 2;
-            // background: url('../../../../../assets/imgs/post-image-2.png');
-            background-size: 100%;
-            // background-size: 100%;
-            background-repeat: no-repeat;
-            // border: solid 2px rgb(17, 0, 255);
-        }
+        .featured {
+            grid-row: span 2;
+            grid-column: span 2;
+        } 
+       
         
-        .blog--third-post {
-            grid-column-start: 2;
-            // background: url('../../../../../assets/imgs/post-image-3.png');
-            background-size: 100%;
-            background-repeat: no-repeat;
-            // border: solid 2px rgb(17, 0, 255);
-        }
     }
 
 
 
 }
 
-
-
-
-
-
-// .container {
-//     background-color: aquamarine;
-// }

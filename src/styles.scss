@@ -2,27 +2,56 @@
 // @import "~bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-* {
-    
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
-// html {
-//     background-color: cornflowerblue;
-//     background-color: var(--bg-color);
-//     background-color: orangered;
-// }
 
 body {
-    
-    background-color: var(--bg-color);
-    // min-width: 100vh;
 
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+
+}
+
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }
 
 
@@ -37,18 +66,22 @@ body {
     font-family: 'ddin';
     src: url('./assets/fonts/D-DIN.otf');
 }
+
 @font-face {
     font-family: 'ddin-exp';
     src: url('./assets/fonts/D-DINExp.otf');
 }
+
 @font-face {
     font-family: 'ddin-exp-bold';
     src: url('./assets/fonts/D-DINExp-Bold.otf');
 }
+
 @font-face {
     font-family: 'ddin-cond';
     src: url('./assets/fonts/D-DINCondensed.otf');
 }
+
 @font-face {
     font-family: 'ddin-cond-bold';
     src: url('./assets/fonts/D-DINCondensed-Bold.otf');
@@ -56,5 +89,12 @@ body {
 
 
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

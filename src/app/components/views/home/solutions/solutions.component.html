@@ -1,15 +1,21 @@
 <section class="solutions">
    
-    <div class="solutions--intro">CONHEÇA NOSSO TRABALHO</div>
+    <div class="solutions--grid">
 
-    <div class="solution--container" *ngFor="let sol of sols">
-        <div class="sol--header">
-            <div class="sol--id">0{{sol.id}}.</div>
-            <div class="sol--title">{{sol.title}}</div>
+        <div class="solutions--intro">CONHEÇA NOSSO TRABALHO</div>
+    
+        <div class="solutions--card" *ngFor="let sol of sols">
+
+            <div class="sol--header">
+                <div class="sol--id">0{{sol.id}}.</div>
+                <div class="sol--title">{{sol.title}}</div>
+            </div>
+            <div class="sol--description">{{sol.description}}</div>
+    
         </div>
-        <div class="sol--description">{{sol.description}}</div>
 
     </div>
+
 
     <h3>VEJA NOSSAS SOLUÇÕES<mat-icon class="material-symbols-outlined">arrow_forward_alt</mat-icon></h3>
 
