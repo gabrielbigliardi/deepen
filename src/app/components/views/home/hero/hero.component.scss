@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 11.25em 7.5em;
+    // padding: 11.25em 7.5em 0 7.5em;
+    padding: max(3vw, 3em);
     color: var(--main-color);
     background-color: var(--bg-color);
     transition: all .5s ease;
