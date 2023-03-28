@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     // padding: 11.25em 7.5em;
-    padding: max(12vw, 8.25rem) max(2.5rem, 8vw) 0 max(2.5rem, 8vw);
+    padding: max(12vw, 8.25rem) max(2.5rem, 8vw) max(7.2vw, 4rem) max(2.5rem, 8vw);
     // padding: max(8vw, 9.25em) max(5vw, 7.5em);
     color: var(--main-color);
     background-color: var(--bg-color);
@@ -18,15 +18,16 @@
     img {
         width: 52em;
         transition: all .5s ease;
-        padding-bottom: 5.25em;
+        padding-bottom: min(5.25em, 5%);
 
     }
 
     h1 {
-        font-size: 5.25em;
+        // font-size: 5.25em;
         // font-size: min(5.25rem, 5vw);w
         font-size: clamp(2.25rem, 5vw, 5.25rem);
-        margin-bottom: 1.5rem;
+        // padding-bottom: 1.5rem;
+        padding-bottom: min(5.25em, 5%);
         transition: all .5s ease;
 
     }
@@ -39,26 +40,3 @@
     }
 }
 
-// @media (max-width: 1280px) {
-//     .hero {
-
-//         padding: 8em 5.625em;
-
-//         img {
-//             width: 559px;
-//             transition: all .5s ease;
-//         }
-
-//         h1 {
-//             font-size: 3.5em;
-//             transition: all .5s ease;
-
-//         }
-
-//         h2 {
-//             font-size: 1.625em;
-//             transition: all .5s ease;
-
-//         }
-//     }
-// }
