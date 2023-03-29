@@ -5,9 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // padding: 11.25em 7.5em;
-    padding: max(12vw, 8.25rem) max(2.5rem, 8vw) max(7.2vw, 4rem) max(2.5rem, 8vw);
-    // padding: max(8vw, 9.25em) max(5vw, 7.5em);
+    padding: max(10vw, 8.25rem) max(2.5rem, 8vw) max(7.2vw, 4rem) max(2.5rem, 8vw);
     color: var(--main-color);
     background-color: var(--bg-color);
     transition: all .5s ease;
@@ -18,7 +16,7 @@
     img {
         width: 52em;
         transition: all .5s ease;
-        padding-bottom: min(5.25em, 5%);
+        padding-bottom: min(5.25em, 3%);
 
     }
 
@@ -27,7 +25,7 @@
         // font-size: min(5.25rem, 5vw);w
         font-size: clamp(2.25rem, 5vw, 5.25rem);
         // padding-bottom: 1.5rem;
-        padding-bottom: min(5.25em, 5%);
+        padding-bottom: min(5.25em, 1%);
         transition: all .5s ease;
 
     }

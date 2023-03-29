@@ -1,9 +1,21 @@
-
-
 .contact {
+    width: 100%;
     display: flex;
-    padding: 2em 7.5em 8.5em 7.5em;
-    gap: 17.5em;
+    // padding: 2em 7.5em 8.5em 7.5em;
+    // padding: 7.5em;
+    // padding: 7.5vw;
+    padding: 7.5em min(7vw , 7.5rem);
+    // gap: 17.5em;
+    gap: 7%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-color);
+
+    > * {
+        width: 100%;
+    }
 
     .contact--form {
         display: flex;
@@ -12,14 +24,18 @@
 
         h2 {
             font-family: 'ddin-cond-bold';
-            font-size: 5.125em;
+            // font-size: 5.125em;
+            font-size: clamp(1.5rem, 8vw, 2.8rem);
+
             color: var(--main-color);
             margin: 0;
         }
 
         h4 {
             font-family: 'ddin';
-            font-size: 2em;
+            // font-size: 2em;
+            // font-size: 4vw;
+            font-size: clamp(1.5em, 4vw, 2em);
             color: var(--main-color);
             margin-bottom: 1em;
             line-height: 1.4em;
@@ -81,4 +97,28 @@
             
         }
     }
+
+    div {
+        img {
+
+            margin-inline: auto;
+        }
+    }
+}
+
+
+@media (max-width: 1500px) {
+
+    .contact {
+        display: block;
+
+        div {
+            img {
+                display: none;
+            }
+        }
+    }
+
+
+
 }

@@ -1,6 +1,8 @@
 .blog {
-    padding: 7.75rem 7.5rem;
+    // padding: 7.75rem 7.5rem;
+    padding: 7.75rem min(7vw , 7.5rem);
     width: 100%;
+    background-color: var(--bg-color);
 
     
     .blog--header {
@@ -10,11 +12,15 @@
 
         h3 {
             font-family: 'ddin-cond-bold';
-            font-size: 3rem;
+            // font-size: 3rem;
+            // font-size: 1rem;
+            // font-size: 4vw;
+            font-size: clamp(1rem, 4vw, 3rem);
             color: var(--main-color);
         }
 
         a {
+            display: inline;
             text-decoration: none;
             font-family: 'ddin-exp-bold';
             font-size: 1.5rem;
@@ -43,11 +49,88 @@
             grid-row: span 2;
             grid-column: span 2;
         } 
-       
-        
+
     }
 
 
-
+    a {
+        display: none;
+    }
 }
 
+
+@media (max-width: 892px) {
+    .blog {
+        .blog--header {
+
+            h3 {
+                font-size: clamp(1.5rem, 8vw, 2.8rem);
+                // font-size: 9vw;
+                // font-size: 1.5rem;
+                // font-size: 2.8rem;
+
+            }
+
+            a {
+                display: none;
+
+            }
+
+
+
+        }
+
+        a {
+            display: inline;
+            text-decoration: none;
+            font-family: 'ddin-exp-bold';
+            font-size: 1.5rem;
+            // font-size: clamp(1.5rem, 8vw, 2.8rem);
+            color: #C2C2C2;
+
+            mat-icon {
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+@media (max-width:713px) {
+
+    .blog {
+
+        .blog--posts {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                aspect-ratio: 1.1/1;
+                width: 100%;
+            }
+        }
+
+        // .blog--posts {
+        //     display: grid;
+        //     grid-template-columns: 1fr;
+        //     // grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        //     grid-template-rows: repeat(3, 1fr);
+        // }
+
+        // .featured {
+        //     grid-row: 1 2;
+        //     grid-column: span 2;
+        // }
+
+        // :nth-child(2) {
+        //     grid-row: 2 3;
+        //     grid-column: span 2;
+        // }
+        
+        // :nth-child(3) {
+        //     grid-row: 3 4;
+        //     grid-column: span 2;
+        // }
+    }
+}

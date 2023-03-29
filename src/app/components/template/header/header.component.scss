@@ -91,9 +91,17 @@ header {
 
     header {
 
-        
         i {
             display: block; 
+            padding-right: .5rem;
+        }
+
+        .navbar--img {
+            // max-width: 10.625em;
+            // width: 9rem;
+            width: 40vw;
+
+            // width: max(9.5rem, , 10.625rem);
         }
 
         .navbar {
