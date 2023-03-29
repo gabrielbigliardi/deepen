@@ -26,10 +26,8 @@
 
 
         > * {
-            // border: solid 3px hotpink;
 
             background: #ffffff15 0% 0% no-repeat padding-box;
-            // border-radius: 2rem;
             border-radius: 5%;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -40,9 +38,8 @@
         }
 
         .solutions--intro {
-            font-size: 5.25em;
-            // padding: 0;
-            // padding-left: .5em;
+            font-size: 4.5em;
+            padding: 0 1.5rem;
             font-family: 'ddin-cond-bold';
             line-height: 5.6rem;
             display: flex;
@@ -72,7 +69,6 @@
 
 
     h3 {
-        // font-size: 1rem;
         margin: 2.5rem 0 0 0;
         text-align: end;
     }

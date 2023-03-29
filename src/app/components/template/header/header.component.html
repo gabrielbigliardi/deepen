@@ -1,14 +1,16 @@
 <header >
     <img class="navbar--img" src="../../../../assets/imgs/logo-deepen-horizontal-01@2x.png" alt="Logo">
     <ul class="navbar"  [ngClass]="isMenuOpen ? 'open' : '' " >
-        <li><a href="" class="active">HOME</a></li>
-        <li><a href="">SOBRE</a></li>
-        <li><a href="">SOLUÇÕES</a></li>
-        <li><a href="">CONSULTORIA</a></li>
-        <li><a href="">BLOG</a></li>
-        <button>ENTRE EM CONTATO</button>
+
+        <li><a href="" routerLink="" fragment="Home" >HOME</a></li>
+        <li><a href="" routerLink="" fragment="About" >SOBRE</a></li>
+        <li><a href="" routerLink="" fragment="Solutions" >SOLUÇÕES</a></li>
+        <li><a href="" routerLink="" fragment="Footer" >CONSULTORIA</a></li>
+        <li><a href="" routerLink="" fragment="Blog" >BLOG</a></li>
+        <button routerLink="" fragment="Contact" >ENTRE EM CONTATO</button>
+
     </ul>
-    <button>ENTRE EM CONTATO</button>
+    <button routerLink="" fragment="Contact" >ENTRE EM CONTATO</button>
     <i class="burger" (click)="toggleMenu()">
         <mat-icon class="material-symbols-outlined">{{ isMenuOpen ? "close" : "menu" }}</mat-icon>
     </i>
