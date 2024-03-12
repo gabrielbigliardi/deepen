@@ -1,5 +1,11 @@
 # Deepen
 
+Um dos primeiros projetos que fiz de uma página Web, onde me desafiei a aprender mais sobre Angular.
+
+O design da página é de autoria de um amigo o qual tive o provilégio de trabalhar com.
+
+Na época apesar de conhecer conceitos de design, não havia começado ainda a me aprofundar no assunto, mas foi a porta de entrada que precisava para me apaixonar também pela arte de projetar aplicações.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
 ## Development server
